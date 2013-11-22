@@ -37,32 +37,33 @@ $(document).ready( function(){
 
 
    var getVeganValue=function(){
-             $(".food-item").show();
+        $(".food-item").show();
         $(".food-item").each(function(){
-           var value=$(this).data("vegan");
+        var value=$(this).data("vegan");
            //console.log("value:"+value);
-           value ? true :$(this).hide();
+        value ? true :$(this).hide();
            
         });
     };
     var getCitrusValue=function(){
-           $(".food-item").show();
+          $(".food-item").show();
+
           $(".food-item").each(function(){
-           var value=$(this).data("citrus");
-           // console.log("value:"+value);
-           value ? true :$(this).hide();
+            var value=$(this).data("citrus");
+            // console.log("value:"+value);
+            value ? true :$(this).hide();
            
-        });
+          });
     };
      var getGlutenValue=function(){
            $(".food-item").show();
            $(".food-item").each(function(){
            var value=$(this).data("gluten");
             console.log("value:"+value);
-           value ? true :$(this).hide();
+            value ? true :$(this).hide();
            
-        });
-    };
+          });
+     };
      
 
 
