@@ -3,8 +3,9 @@
 
 
 ### Description:
-Object oriented programming is used to model data
-Costumers can pick their food according their diet
+
+Object oriented programming methodology is applied to model the data
+
 
 
 
